@@ -12,6 +12,8 @@
 		E849C7561F46BB490052B650 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E849C7541F46BB490052B650 /* Main.storyboard */; };
 		E849C7581F46BB490052B650 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E849C7571F46BB490052B650 /* Assets.xcassets */; };
 		E849C75B1F46BB490052B650 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E849C7591F46BB490052B650 /* LaunchScreen.storyboard */; };
+		E849C7631F46BB6D0052B650 /* TourInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = E849C7621F46BB6D0052B650 /* TourInfo.swift */; };
+		E849C7651F46BCC50052B650 /* MainTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E849C7641F46BCC50052B650 /* MainTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		E849C7571F46BB490052B650 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E849C75A1F46BB490052B650 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E849C75C1F46BB490052B650 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E849C7621F46BB6D0052B650 /* TourInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TourInfo.swift; sourceTree = "<group>"; };
+		E849C7641F46BCC50052B650 /* MainTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				E849C7571F46BB490052B650 /* Assets.xcassets */,
 				E849C7591F46BB490052B650 /* LaunchScreen.storyboard */,
 				E849C75C1F46BB490052B650 /* Info.plist */,
+				E849C7621F46BB6D0052B650 /* TourInfo.swift */,
+				E849C7641F46BCC50052B650 /* MainTableViewController.swift */,
 			);
 			path = TourGuide;
 			sourceTree = "<group>";
@@ -137,8 +143,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E849C7651F46BCC50052B650 /* MainTableViewController.swift in Sources */,
 				E849C7531F46BB490052B650 /* ViewController.swift in Sources */,
 				E849C7511F46BB490052B650 /* AppDelegate.swift in Sources */,
+				E849C7631F46BB6D0052B650 /* TourInfo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

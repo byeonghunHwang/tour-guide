@@ -7,3 +7,14 @@
 //
 
 import Foundation
+import UIKit
+
+class Nation {
+    var nation: String
+    var nationImage: UIImage
+    
+    init(nation: String, nationImage: UIImage) {
+        self.nation = nation
+        self.nationImage = nationImage
+    }
+}
